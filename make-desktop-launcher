@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -eou pipefail
+IFS=$'\n\t'
+
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+cd $DIR
+sed -e "s;%DIR%;$DIR;g" Tor\ Web\ Browser.desktop.template > Tor\ Web\ Browser.desktop
+chmod +x Tor\ Web\ Browser.desktop
+cd

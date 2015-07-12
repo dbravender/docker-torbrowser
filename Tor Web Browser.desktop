@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Firefox Web Browser
+Comment=Browse the World Wide Web
+Exec=/home/dbravender/oprojects/docker-torbrowser/start %u
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=firefox
+StartupNotify=true
+Name[en_US]=Tor Web Browser
