@@ -1,2 +1,2 @@
 mkdir -p ~/TorDownloads
-docker run -i -t --rm -e DISPLAY=$DISPLAY -v ~/TorDownloads:/home/docker/tor-browser_en-US/Browser/Downloads -v /tmp/.X11-unix:/tmp/.X11-unix:ro torbrowser
+docker run -i --rm -e DISPLAY=$DISPLAY -v ~/TorDownloads:/home/docker/tor-browser_en-US/Browser/Downloads -v /tmp/.X11-unix:/tmp/.X11-unix:ro torbrowser
