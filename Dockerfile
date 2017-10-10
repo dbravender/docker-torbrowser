@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt-get update && echo "not stale 3"
+RUN apt-get update && echo "not stale 4"
 
 # Set the env variable DEBIAN_FRONTEND to noninteractive
 ENV DEBIAN_FRONTEND noninteractive
